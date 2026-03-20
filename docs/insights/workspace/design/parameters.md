@@ -48,7 +48,7 @@ This is relevant only for very long audio/text inputs (ie >1h recording).
 
 These parameters are used for the connection with the [flows]() defined in the [Digital Agent]() project type. Once connected, you can pass insight data to flow for further processing and then retrieve it. 
 
-![]()
+![](.gitbook/assets/image_MR7l3E.png)
 
 On-screen elements:
 

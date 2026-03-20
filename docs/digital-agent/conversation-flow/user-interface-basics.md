@@ -10,9 +10,9 @@ Remember, you can also import projects based on your templates into your workspa
 
 To understand different versions, check out the [Project Version History]()and refer to the video below.
 
-![]()
+![](.gitbook/assets/CPT2601151511-1470x685.gif)
 
-![]()
+![](.gitbook/assets/image.png)
 
 
 The top panel of our platform provides essential tools and functionalities for seamless project management and navigation. Let's break down each component:
@@ -72,7 +72,7 @@ General comments provide a space for users to share overall feedback, ask questi
 - Node-specific comments
 Node-specific comments offer more targeted feedback by linking comments directly to specific nodes or elements within the project. This feature is invaluable for providing precise feedback on particular parts of a conversation flow, code segments, or design components.
 
-![]()
+![](.gitbook/assets/CPT2601151656-1470x685.gif)
 
 ![]()
 
@@ -92,7 +92,7 @@ The notepad features a user-friendly graphical interface with a blank space wher
 
 SPend
 
-![]()
+![](.gitbook/assets/CPT2601151704-1470x685.gif)
 
 ![]()
 

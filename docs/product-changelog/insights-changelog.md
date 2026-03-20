@@ -12,4 +12,4 @@ From this release, the attachments analysis supports also images inside the emai
 
 To turn this feature on, no further adjustment is needed - it's an enhancement to the existing emails attachments processing, which can be turn on with a toggle in Data sources section.
 
-![]()
+![](.gitbook/assets/image_ixqwr6.png)

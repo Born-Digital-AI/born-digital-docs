@@ -13,12 +13,56 @@ TOKEN = "gb_api_f84ZNSSSfAoDfavWWDjkFzq0WisGpxHyFxRddlay"
 SPACE_ID = "6iQTvxgRZRwPS1NgIGEb"
 BASE_URL = "https://api.gitbook.com/v1"
 HEADERS = {"Authorization": f"Bearer {TOKEN}"}
+ASSETS_DIR = "docs/.gitbook/assets"
 
 def fetch(url):
     req = urllib.request.Request(url, headers=HEADERS)
     with urllib.request.urlopen(req) as r:
         return json.loads(r.read())
 
+def download_file(url, dest_path):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req) as r:
+        with open(dest_path, "wb") as f:
+            f.write(r.read())
+
+# --- Download all files and build fileId -> local path map ---
+print("Fetching files list...")
+os.makedirs(ASSETS_DIR, exist_ok=True)
+
+file_map = {}  # fileId -> relative markdown path
+all_files = []
+url = f"{BASE_URL}/spaces/{SPACE_ID}/content/files"
+while url:
+    data = fetch(url)
+    all_files.extend(data.get("items", []))
+    next_page = data.get("next", {})
+    url = next_page.get("url") if next_page else None
+
+print(f"Found {len(all_files)} files, downloading...")
+for file in all_files:
+    file_id = file["id"]
+    name = file["name"]
+    download_url = file["downloadURL"]
+    dest = os.path.join(ASSETS_DIR, name)
+
+    # handle duplicate filenames
+    if os.path.exists(dest):
+        base, ext = os.path.splitext(name)
+        dest = os.path.join(ASSETS_DIR, f"{base}_{file_id[:6]}{ext}")
+        name = os.path.basename(dest)
+
+    print(f"  Downloading {name} ({file.get('size', 0) / 1024 / 1024:.1f}MB)...")
+    try:
+        download_file(download_url, dest)
+        file_map[file_id] = f".gitbook/assets/{name}"
+    except Exception as e:
+        print(f"  ERROR downloading {name}: {e}")
+        file_map[file_id] = ""
+
+print(f"Downloaded {len(file_map)} files.\n")
+
+# --- Markdown conversion ---
 def node_to_md(node, depth=0):
     t = node.get("type", "")
     nodes = node.get("nodes", [])
@@ -74,9 +118,18 @@ def node_to_md(node, depth=0):
         style = node.get("data", {}).get("style", "info")
         content = children_text().strip()
         return f"> **{style.upper()}:** {content}\n\n"
+    if t == "images":
+        # container for one or more image nodes
+        return children_text()
     if t == "image":
-        src = node.get("data", {}).get("src", "")
         alt = node.get("data", {}).get("alt", "")
+        ref = node.get("data", {}).get("ref", {})
+        src = ""
+        if ref.get("kind") == "file":
+            file_id = ref.get("file", "")
+            src = file_map.get(file_id, "")
+        if not src:
+            src = node.get("data", {}).get("src", "")
         return f"![{alt}]({src})\n\n"
     if t == "link":
         href = node.get("data", {}).get("href", "")
@@ -109,13 +162,12 @@ def doc_to_markdown(page):
     return "".join(parts).strip() + "\n"
 
 def slug_to_path(path_str):
-    """Convert GitBook path to file path under docs/"""
     return f"docs/{path_str}.md"
 
 def ensure_dir(filepath):
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
 
-# Load full structure
+# --- Fetch and write pages ---
 print("Fetching space structure...")
 structure = fetch(f"{BASE_URL}/spaces/{SPACE_ID}/content")
 
@@ -134,7 +186,6 @@ groups = [p for p in all_pages if p.get("kind") == "group"]
 
 print(f"Found {len(sheets)} pages, {len(groups)} groups")
 
-# Fetch and write each page
 failed = []
 for i, page in enumerate(sheets):
     page_id = page["id"]
@@ -148,16 +199,15 @@ for i, page in enumerate(sheets):
         ensure_dir(filepath)
         with open(filepath, "w") as f:
             f.write(md)
-        time.sleep(0.1)  # rate limit
+        time.sleep(0.1)
     except Exception as e:
         print(f"  ERROR: {e}")
         failed.append(path)
-        # Write stub
         ensure_dir(filepath)
         with open(filepath, "w") as f:
             f.write(f"# {page.get('title', path)}\n\n_Content coming soon._\n")
 
-# Build SUMMARY.md
+# --- Build SUMMARY.md ---
 print("\nBuilding SUMMARY.md...")
 
 def build_summary(pages, indent=0):
@@ -166,7 +216,6 @@ def build_summary(pages, indent=0):
         title = p["title"]
         kind = p.get("kind", "sheet")
         path = p.get("path", "")
-        slug = p.get("slug", "")
         prefix = "  " * indent
 
         if kind == "group":
@@ -190,7 +239,6 @@ summary_lines.extend(build_summary(structure["pages"]))
 with open("docs/SUMMARY.md", "w") as f:
     f.write("\n".join(summary_lines) + "\n")
 
-# Write .gitbook.yaml
 with open(".gitbook.yaml", "w") as f:
     f.write("root: ./docs\n")
 
