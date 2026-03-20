@@ -4,7 +4,11 @@ What´s new in Digital Agent? Read a quick change log overview
 
 # Release 24.11.2025
 
-_[Table content - see GitBook for full view]_
+| Application | Version |
+| --- | --- |
+| Orchestrator | 1.11.77 |
+|  |  |
+|  |  |
 
 ## Analyzing images inside an email
 

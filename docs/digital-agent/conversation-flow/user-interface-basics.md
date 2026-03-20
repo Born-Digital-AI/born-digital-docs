@@ -10,9 +10,9 @@ Remember, you can also import projects based on your templates into your workspa
 
 To understand different versions, check out the [Project Version History]()and refer to the video below.
 
-![](.gitbook/assets/CPT2601151511-1470x685.gif)
+![](.gitbook/assets/CPT2601151511-1470x685_jhIHYC.gif)
 
-![](.gitbook/assets/image.png)
+![](.gitbook/assets/image_HPxgkw.png)
 
 
 The top panel of our platform provides essential tools and functionalities for seamless project management and navigation. Let's break down each component:
@@ -72,7 +72,7 @@ General comments provide a space for users to share overall feedback, ask questi
 - Node-specific comments
 Node-specific comments offer more targeted feedback by linking comments directly to specific nodes or elements within the project. This feature is invaluable for providing precise feedback on particular parts of a conversation flow, code segments, or design components.
 
-![](.gitbook/assets/CPT2601151656-1470x685.gif)
+![](.gitbook/assets/CPT2601151656-1470x685_g1m5sg.gif)
 
 ![]()
 
@@ -92,7 +92,7 @@ The notepad features a user-friendly graphical interface with a blank space wher
 
 SPend
 
-![](.gitbook/assets/CPT2601151704-1470x685.gif)
+![](.gitbook/assets/CPT2601151704-1470x685_kbJ8TR.gif)
 
 ![]()
 
@@ -124,27 +124,69 @@ You can find a comprehensive overview of all the new shortcuts within the app. J
 
 Ideal for training, deployment, and various project management tasks.
 
-_[Table content - see GitBook for full view]_
+| Shortcut | Name of the action |
+| --- | --- |
+| ALT + S | Save |
+| ALT + SHIFT + S | Save model version |
+| ALT + SHIFT + I | Import |
+| ALT + SHIFT + E | Export |
+| ALT + SHIFT + T | Train version / untrain |
+| ALT + SHIFT + F | Test in debug |
+| ALT + SHIFT + D | Project Deploy |
 
 Streamline your editing process with these handy shortcuts.
 
-_[Table content - see GitBook for full view]_
+| Shortcut | Name of the action |
+| --- | --- |
+| CTRL + C | Copy |
+| CTRL + V | Paste |
+| CTRL + X | Cut |
+| CTRL + D | Duplicate |
+| ALT + F | Find |
+| Shift + Left mouse | Multiselect |
 
 Familiar essential shortcuts, now with ALT replacing CTRL for improved accessibility.
 
-_[Table content - see GitBook for full view]_
+| Shortcut | Name of the action |
+| --- | --- |
+| ALT + Y | Redo |
+| ALT + Z | Undo |
+| ESC | Escape the node |
+| BACKSPACE | Delete node |
+| END | Previous node |
+| ALT + G | Group selection |
+| ALT + SHIFT + G | Ungroup selection |
 
 Effortlessly create multiple nodes with a simple click on the canvas. Press ESC to revert to the normal cursor.
 
-_[Table content - see GitBook for full view]_
+| Shortcut | Name of the action |
+| --- | --- |
+| SHIFT + M | Message node |
+| SHIFT + A | Answer node |
+| SHIFT + D | Decision node |
+| SHIFT + F | Function node |
+| SHIFT + G | Generative AI node |
+| SHIFT + R | Redirect |
+| SHIFT + T | Transfer |
+| SHIFT + E | End |
 
 Navigate UI changes quickly with shortcuts for the move tool, hand tool, and comment tool.
 
-_[Table content - see GitBook for full view]_
+| Shortcut | Name of the action |
+| --- | --- |
+| ALT + V | Move tool |
+| ALT + H | Hand tool |
+| ALT + C | Insert comment |
+| ALT + SHIFT + C | Show/hide comment panel |
+| ALT + SHIFT + N | Open / hide notepad |
 
 Enhance your project view with quick zoom in/out shortcuts.
 
-_[Table content - see GitBook for full view]_
+| Shortcut | Name of the action |
+| --- | --- |
+| Mouse wheel | Zoom in / out |
+| SHIFT + 1 | Zoom to fit |
+| SHIFT + 2 | Lock interactivity |
 
 > **INFO:** **Special Note for Mac Users: **
 

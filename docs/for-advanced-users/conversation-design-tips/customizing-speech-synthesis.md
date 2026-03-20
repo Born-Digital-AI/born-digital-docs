@@ -70,25 +70,47 @@ Delve into the Essential SSML Tags: Enhancing Your Assistant's Voice with Tag Ma
 
 <break> allows you to insert a pause in the speech. The time attribute specifies the duration of the pause, and the strength attribute specifies the strength of the pause.
 
-_[Table content - see GitBook for full view]_
+| Exemple | Descripton |
+| --- | --- |
+| <break time="10ms"/> | Pause of 10 miliseconds |
+| <break strength="strong"/> | Pause of set strenght Possible attribute values: x-weak, weak, medium, strong, x-strong |
+| <break time="500ms" strength="weak"/> | Pause od 500 milliseconds and set strength |
+| <break time ="50%"/> | Pause lasting 50 % of default |
+| <break time = "1"/> | Pause of 1 second |
 
 <emphasis> allows to emphasize a particular word or phrase in the speech. The l. .evel attribute specifies the level of emphasis, which can be either "strong" or "moderate".
 
 <prosody> allows to adjust the pronunciation, volume, and speaking rate of the speech. The pitch, range, rate, and volume attributes can be used to adjust these aspects of the speech.
 
-_[Table content - see GitBook for full view]_
+| Exemple | Description |
+| --- | --- |
+| <prosody rate="+5.00%"> ... </prosody> | Changing rate, increasing by +5 % |
+| <prosody rate="+5.00%"> ... </prosody> | Changing rate, to slow Possible attribute values: x-slow, slow, medium, fast, x-fast |
+| <prosody pitch="+5.00%">...</prosody> | Changing voice pitch, increase by +5 % |
+| <prosody pitch="hight>...</prosody> | Changing voice pitch, to high Possible attribute values: x-low, low, medium, high, x-high |
+| <prosody volume="+5.00%">...</prosody> | Changing volume, increasing by +5% |
+| <prosody volume="soft">...</prosody> | Changing volume, to soft Possible attribute values: x-soft, soft, medium, loud, x-loud |
+| <prosody emphasis="strong">...</prosody> | Setting emphasis, to strong Possible attribute values: none, moderate, strong |
+| <prosody contour="(0%,+10%)(50%,+50%)(100%,+10%)">...</prosody> | Adjusting contour of speech |
 
 <say-as> allows to specify how a particular string of text should be pronounced. The interpret-as attribute specifies the type of text to be interpreted, and the format attribute specifies the format of the text. The detail attribute can be used to provide additional information about how the text should be pronounced.
 
-_[Table content - see GitBook for full view]_
+| Exemple | Description |
+| --- | --- |
+| <say-as interpret-as="xxx">...</say-as> | Attribute interpret-as set rule for entity Possible attribute values: date, time, digits, character, spell, address, telephone, name, URL etc. |
+| <say-as interpret-as="xxx" format="yyy">...</say-as> | *Setting format for attribute, could be also set as "Undefined" interpret-as Ex. <say-as interpret-as="date" format="md">9/1</say as> set format for entity date as month-day Pronounced as: September, 1st* |
 
 <phoneme> allows to specify the pronunciation of a particular phoneme. The alphabet attribute specifies the phonetic alphabet being used, and the ph attribute specifies the phoneme to be pronounced.
 
-_[Table content - see GitBook for full view]_
+| Exemple | Description |
+| --- | --- |
+| <phoneme alphabet="ipa" ph="bɔˈɹn.dɪˈ.dʒɪ.təl.">Born Digital</phoneme> | Attribute alphabet sets IPA (international phonetic alphabet) Attribute ph sets phonemes be pronounced Phonemes are transcribed with IPA Born Digital = [bɔˈɹn.dɪˈ.dʒɪ.təl.] |
 
 <sub> allows you to substitute one word or phrase for another. The alias attribute specifies the replacement text, and the content between the start and end sub-tag represents the text to be replaced.
 
-_[Table content - see GitBook for full view]_
+| Exemple | Description |
+| --- | --- |
+| <sub alias="Born digital">BD</sub> | *Substitues text with set alias Ex. BD with alias Born Digital* |
 
 
 
@@ -116,7 +138,12 @@ Copywriting for your digital assistant should be simple and straightforward to m
 
 ## **Keynotes:**
 
-_[Table content - see GitBook for full view]_
+| isCh78qj7ijj |
+| --- |
+| In the case of voicebot, you do not have to stick to spelling and grammar as in other types of communication. Of course, spelling and grammar are still important and have a very strong influence on synthesis quality. |
+| However in some cases, grammatically, orthographically and typologically correct text can lead to a result that is not pleasant to listen to, negatively affecting intonation and spoiling the quality of the synthesis. |
+| Therefore, work consciously with this characteristic of the synthetic voice and make "mistakes" on purpose.  E.g., deleting or adding commas in a sentence, can significantly improve to the quality of the synthesis. |
+| Deliberately using the wrong spelling can also have its advantages and, in some cases, improves the pronunciation of certain words or phrases. |
 
 # Copywriting structure
 
@@ -664,7 +691,18 @@ Every number needs to be checked!
 
 > > **B.**
 
-_[Table content - see GitBook for full view]_
+| c47d73faeaa84704b14a292c5c517450 | 938838ac108346f1849c0d507ff1ce4e |
+| --- | --- |
+| **NUMBER** | **OK/NOK** |
+| 1234 | OK |
+| 2234 | OK |
+| 3234 | OK |
+| 4234 | OK |
+| 5234 | NOK |
+| 6234 | NOK |
+| 7234 | NOK |
+| 8234 | NOK |
+| 9234 | NOK |
 
 1..., 2..., 3..., 4... (thousand) are pronounced CORRECT.
 

@@ -2,7 +2,10 @@
 
 Welcome to the "My Settings" section! Here, we'll provide you with a concise overview of your personal and organization settings.
 
-_[Table content - see GitBook for full view]_
+| 8e2bee0923674c388fe6a0d8c8982469 | bdc34409e1d3446faf21056d87ae4549 | a8412e81efb14c2697774f374deb2405 |
+| --- | --- | --- |
+| [link](06CBUy6RXRVr7MymBFAJ) | Customize your experience, update your profile information, and set preferences that suit your needs. | - Profile Customization: Tailor your profile to reflect your identity and preferences within the app. - Personal Preferences: Adjust settings to match your workflow and optimize your user experience. - Account Information: Update and maintain your account details effortlessly. |
+| [link](06CBUy6RXRVr7MymBFAJ) | Explore the organizational settings that impact the broader framework within which you operate. | - Workspace Management: Configure and organize your workspace settings to enhance collaboration - Access Permissions: Administer access levels, roles, and permissions within your organization. - Team Collaboration: Facilitate seamless teamwork and communication among team members working on voicebot projects. |
 
 ---
 

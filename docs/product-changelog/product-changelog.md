@@ -4,7 +4,18 @@ What´s new in Digital Agent? Read a quick change log overview
 
 # Release 07.10.2025
 
-_[Table content - see GitBook for full view]_
+| Application | Version |
+| --- | --- |
+| Chatbot Bubble | v2.18.20 |
+| Builder | v2.3.11 |
+| Builder Server | v2.2.10 |
+| NLP Engine & Intent resolver | v1.27.18 |
+| Knowledge base indexer | v0.2.7 |
+| Voice | v1.19.12 |
+| Voice Connector | v2.0.8 |
+| New Outbound app | v0.0.15 |
+| LLM connector | v0.0.19 |
+| New bubble | v0.0.8 |
 
 ## AI node 2.0 - Tools
 
@@ -139,7 +150,16 @@ For Knowledge base processing, options for Advanced and Custom parsing has been 
 
 # Release 10.09.2025
 
-_[Table content - see GitBook for full view]_
+| Application | Version |
+| --- | --- |
+| Chatbot Bubble | v2.18.12 |
+| Builder | v2.3.0 |
+| Builder Server | v2.2.6 |
+| NLP Engine & Intent resolver | v1.27.7 |
+| Voice | v1.19.5 |
+| Voice Connector | v2.0.4 |
+| New Outbound app | v0.0.15 |
+| LLM connector | v0.0.18 |
 
 ## New AI Node
 
@@ -270,7 +290,16 @@ Backgroung music, whitelist and blacklist can be specified here.
 
 # Release 08.04.2025
 
-_[Table content - see GitBook for full view]_
+| Application | Version |
+| --- | --- |
+| Chatbot Bubble | v2.17.8 |
+| Builder | [v2.]()1.1 |
+| Builder Server | v2.1.0 |
+| NLP Engine & Intent resolver | v1.26.0 |
+| Voice | v1.18.0 |
+| Voice Connector | v1.17.3 |
+| New Outbound app | v0.0.14 |
+| LLM connector | v0.0.14 |
 
 ## Product & Organization dropdowns in New tab modal
 
@@ -293,7 +322,17 @@ If you want to reopen the Tabs, which you have recently closed - you will be abl
 
 # Release 06.03.2025
 
-_[Table content - see GitBook for full view]_
+| Application | Version |
+| --- | --- |
+| Chatbot Bubble | v2.17.3 |
+| Builder | [v2.0.4]() |
+| Builder Server | v2.0.2 |
+| NLP Engine & Intent resolver | v1.24.10 |
+| Out Calls | v1.13.7 |
+| Voice | v1.16.14 |
+| Voice Connector | v1.16.20 |
+| Knowledge Base Indexer | v0.1.100 |
+| LLM Connector | v0.0.8 |
 
 ## New Workspace = Home
 
@@ -496,7 +535,18 @@ These changes ensure a more intuitive workflow by prioritizing Generative AI as 
 
 # Release 14.11.2024
 
-_[Table content - see GitBook for full view]_
+| Application | Version |
+| --- | --- |
+| Chatbot Bubble | v2.16.0 |
+| Builder | v1.19.0 |
+| Builder Server | v1.21.0 |
+| NLP Engine & Intent resolver | v1.24.0 |
+| Out Calls | v1.13.7 |
+| Voice | v1.16.0 |
+| Voice Connector | v1.16.2 |
+| Knowledge Base Indexer | v0.1.97 |
+| Password page | v0.0.4 |
+| LLM Connector | v0.1.1 |
 
 ## Beta testing of colour scheme of Digital studio
 
@@ -604,7 +654,18 @@ Copying of flow elements has been fixed working now also with all of the node co
 
 # Release 30.09.2024
 
-_[Table content - see GitBook for full view]_
+| Application | Version |
+| --- | --- |
+| Chatbot Bubble | v2.15.26 |
+| Builder | v1.18.3.1 |
+| Builder Server | v1.20.0 |
+| NLP Engine & Intent resolver | v1.23.4 |
+| Out Calls | v1.13.3 |
+| Voice | v1.15.17 |
+| Voice Connector | v1.15.17 |
+| Knowledge Base Indexer | v0.1.96 |
+| Password page | v0.0.4 |
+| LLM Connector | v0.1.1 |
 
 
 
@@ -729,7 +790,16 @@ The bug, where in some of cases Organizatin dropdown was not shown is now fixed.
 
 ## Digital studio - overview
 
-_[Table content - see GitBook for full view]_
+| Application | Version |
+| --- | --- |
+| Chatbot Bubble | v2.15.19 |
+| Builder | v1.17.32 |
+| Builder Server | v1.19.10 |
+| NLP Engine & Intent resolver | v1.22.21 |
+| Out Calls | v1.13.3 |
+| Voice | v1.15.12 |
+| Voice Connector | v1.15.13 |
+| Knowledge Base Indexer | v0.1.96 |
 
 
 
@@ -868,7 +938,16 @@ The extractor utterance_language returns the ISO code of the detected language
 
 ## Digital studio - overview
 
-_[Table content - see GitBook for full view]_
+| Application | Version |
+| --- | --- |
+| Builder | v1.17.14 |
+| Builder Server | v1.18.12 |
+| Chatbot Bubble | v2.15.6 |
+| NLP Engine & Intent resolver | v1.22.15 (IMPORTANT ENV CHANGE) |
+| Out Calls | v1.13.0 |
+| Voice | v1.15.6 |
+| Voice Connector | v1.15.5 |
+| Knowledge Base Indexer | v0.1.91 |
 
 ## Conversation DB table migration (NLP application)
 
@@ -1045,7 +1124,16 @@ You can now toggle to display both technical and business variables in the varia
 
 ## Digital studio - overview
 
-_[Table content - see GitBook for full view]_
+| Application | Version |
+| --- | --- |
+| Builder | v1.17.4 |
+| Builder Server | v1.18.6 |
+| Chatbot Bubble | v2.15.1 |
+| NLP Engine & Intent resolver | v1.22.4 |
+| Out Calls | v1.13.0 |
+| Voice | v1.15.3 |
+| Voice Connector | v1.15.0 |
+| Knowledge Base Indexer | v0.1.88 |
 
 ## Index Parsing Methods Improvements
 
@@ -1122,7 +1210,16 @@ You can now use Announcements in your Message node UI directly and set their beh
 
 ## Digital studio - overview
 
-_[Table content - see GitBook for full view]_
+| Application | Version |
+| --- | --- |
+| Builder | v1.16.2 |
+| Builder Server | v1.17.1 |
+| Chatbot Bubble | v2.14.0 |
+| NLP Engine & Intent resolver | v1.22.1 |
+| Out Calls | v1.13.0 |
+| Voice | v1.15.0 |
+| Voice Connector | v1.15.0 |
+| Knowledge Base Indexer | v0.1.83 |
 
 ​
 
@@ -1189,7 +1286,16 @@ We are committed to continuous improvement and innovation to serve your needs be
 
 ## Digital studio - overview
 
-_[Table content - see GitBook for full view]_
+| Application | Version |
+| --- | --- |
+| Builder | v1.15.0 |
+| Builder Server | v1.16.0 |
+| Chatbot Bubble | v2.14.0 |
+| NLP Engine & Intent resolver | v1.21.0 |
+| Out Calls | v1.11.1 |
+| Voice | v1.14.0 |
+| Voice Connector | v1.14.0 |
+| Knowledge Base Indexer | v0.1.80 |
 
 ​
 
@@ -1243,7 +1349,16 @@ We are committed to continuous improvement and innovation to serve your needs be
 
 ## Digital studio - overview
 
-_[Table content - see GitBook for full view]_
+| Application | Version |
+| --- | --- |
+| Builder | v1.14.1 |
+| Builder Server | v1.15.0 |
+| Chatbot Bubble | v2.13.0 |
+| NLP Engine & Intent resolver | v1.20.1 |
+| Out Calls | v1.11.1 |
+| Voice | v1.13.0 |
+| Voice Connector | v1.13.0 |
+| Knowledge Base Indexer | v0.1.75 |
 
 ​
 
@@ -1281,27 +1396,69 @@ You can find a comprehensive overview of all the new shortcuts within the app. J
 
 Ideal for training, deployment, and various project management tasks.
 
-_[Table content - see GitBook for full view]_
+| Shortcut | Name of the action |
+| --- | --- |
+| ALT + S | Save |
+| ALT + SHIFT + S | Save model version |
+| ALT + SHIFT + I | Import |
+| ALT + SHIFT + E | Export |
+| ALT + SHIFT + T | Train version / untrain |
+| ALT + SHIFT + F | Test in debug |
+| ALT + SHIFT + D | Project Deploy |
 
 Streamline your editing process with these handy shortcuts.
 
-_[Table content - see GitBook for full view]_
+| Shortcut | Name of the action |
+| --- | --- |
+| CTRL + C | Copy |
+| CTRL + V | Paste |
+| CTRL + X | Cut |
+| CTRL + D | Duplicate |
+| ALT + F | Find |
+| Shift + Left mouse | Multiselect |
 
 Familiar essential shortcuts, now with ALT replacing CTRL for improved accessibility.
 
-_[Table content - see GitBook for full view]_
+| Shortcut | Name of the action |
+| --- | --- |
+| ALT + Y | Redo |
+| ALT + Z | Undo |
+| ESC | Escape the node |
+| BACKSPACE | Delete node |
+| END | Previous node |
+| ALT + G | Group selection |
+| ALT + SHIFT + G | Ungroup selection |
 
 Effortlessly create multiple nodes with a simple click on the canvas. Press ESC to revert to the normal cursor.
 
-_[Table content - see GitBook for full view]_
+| Shortcut | Name of the action |
+| --- | --- |
+| SHIFT + M | Message node |
+| SHIFT + A | Answer node |
+| SHIFT + D | Decision node |
+| SHIFT + F | Function node |
+| SHIFT + G | Generative AI node |
+| SHIFT + R | Redirect |
+| SHIFT + T | Transfer |
+| SHIFT + E | End |
 
 Navigate UI changes quickly with shortcuts for the move tool, hand tool, and comment tool.
 
-_[Table content - see GitBook for full view]_
+| Shortcut | Name of the action |
+| --- | --- |
+| ALT + V | Move tool |
+| ALT + H | Hand tool |
+| ALT + C | Insert comment |
+| ALT + SHIFT + C | Show/hide comment panel |
+| ALT + SHIFT + N | Open / hide notepad |
 
 Enhance your project view with quick zoom in/out shortcuts.
 
-_[Table content - see GitBook for full view]_
+| Shortcut | Name of the action |
+| --- | --- |
+| Mouse wheel | Zoom in / out |
+| SHIFT + 1 | Zoom to fit |
+| SHIFT + 2 | Lock interactivity |
 
 > **INFO:** **Special Note for Mac Users: **
 
@@ -1356,7 +1513,16 @@ We're committed to continuously improving our application to meet your needs and
 
 # Release - 13.02.2024
 
-_[Table content - see GitBook for full view]_
+| Application | Version |
+| --- | --- |
+| Builder | v1.13.0 |
+| Builder Server | v1.14.0 |
+| Chatbot Bubble | v2.12.0 |
+| NLP Engine & Intent resolver | v1.19.1 |
+| Out Calls | v1.11.0 |
+| Voice | v1.12.1 |
+| Voice Connector | v1.12.0 |
+| Knowledge Base Indexer | v0.1.68 |
 
 ​
 
@@ -1422,7 +1588,17 @@ We're committed to continuously improving our application to meet your needs and
 
 ## Digital Agent overview
 
-_[Table content - see GitBook for full view]_
+| fCJuJkrNqguD | 67hU8dH9qBW7 |
+| --- | --- |
+| Application | Version |
+| Builder | v1.12.56 |
+| Builder Server | v1.13.14 |
+| Chatbot Bubble | v2.11.14 |
+| NLP Engine & Intent resolver | v1.18.10 |
+| Out Calls | v1.10.5 |
+| Voice | v1.11.6 |
+| Voice Connector | v1.11.3 |
+| Knowledge Base Indexer | v0.1.65 |
 
 ## Personalized Notepad: 
 

@@ -4,4 +4,7 @@ Welcome aboard! This guide will walk you through the effortless steps to craft a
 
 Choose the project
 
-_[Table content - see GitBook for full view]_
+| uJLkqMorQnnw | toRfC2ixjg1j |
+| --- | --- |
+| [link](GuhHxbhyXpTg991NZ54e) | In this chapter, you will learn how to build a basic project for analysing audio recordings or emails. |
+| [link](SA83Pe9ZMd5dgH1yRPaz) | Here, we will deep-dive into a more complex solution using the flow connector. |

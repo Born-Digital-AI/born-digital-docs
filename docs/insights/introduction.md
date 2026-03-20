@@ -35,4 +35,7 @@ Icon ⚙️ indicates advanced features.
 
 ## Quick links for you
 
-_[Table content - see GitBook for full view]_
+| 21e7e5528cd64ba6899578c8f06e571a | e16968b6712940a3a064f9152f51e292 | e6b0e6026a98467381753486e873c151 |
+| --- | --- | --- |
+| [link](peBnFFbI5xmBLyhA78JB) | Understand the Digital Studio Workspace to manage and oversee your  insight projects. |  |
+| [link](8xS3Frv2Vd53zb2XPYZi) | Learn how to create a new Insights project from scratch. |  |

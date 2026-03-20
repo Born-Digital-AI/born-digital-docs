@@ -2,7 +2,11 @@
 
 Discover essential steps from sign-up to profile customization and organization settings. Learn to navigate sign-in, password recovery, and tailor your experience effortlessly.
 
-_[Table content - see GitBook for full view]_
+| 62a08c7499ec47e4a42c8e80b213b7dc | 819dfce83a634a809e881c4143874bcc | 85094f086392476384502c559abb9aa6 |
+| --- | --- | --- |
+| [link](0k64BItgsKYqcfrGCBbd) |  | Begin your journey by easily creating your account with our intuitive sign-up process |
+| [link](0k64BItgsKYqcfrGCBbd) |  | Access your account securely and effortlessly by following simple login procedures |
+| [link](06CBUy6RXRVr7MymBFAJ) |  | Customize and personalize your experience with easy-to-access settings tailored to your preferences |
 
 
 
