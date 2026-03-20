@@ -2,11 +2,11 @@
 
 Exciting News! Our 'AI node' is in the process of receiving some fantastic updates!
 
-In this chapter, we are going to introduce you the updated user interface for ['Generative AI' node]().
+In this chapter, we are going to introduce you the updated user interface for ['Generative AI' node](../digital-agent/conversation-flow/nodes-explained/ai-node.md).
 
 We've decided to create an infinite loop chatbot virtual assistant based on a simple prompt - system message. This is crucial for implementing the Generative AI within the Conversation Flow. We're excited to enhance its capabilities and explore various scenarios. To explain this, we've created a simple project. Watch the video below for a clear demonstration.
 
-> **INFO:** To understand and showcase the 'Generative AI' node effectively, we recommend visiting the ['Message' node](),['Answer' node](), ['Training Project']() ,  and ['Create Project']()pages for detailed insights.
+> **INFO:** To understand and showcase the 'Generative AI' node effectively, we recommend visiting the ['Message' node](../digital-agent/conversation-flow/nodes-explained/message-node.md),['Answer' node](../digital-agent/conversation-flow/nodes-explained/answer-node.md), ['Training Project'](../digital-agent/conversation-flow/launching-project.md) ,  and ['Create Project'](../digital-agent/workspace/list-of-projects.md)pages for detailed insights.
 
 ![]()
 
@@ -18,7 +18,7 @@ We've decided to create an infinite loop chatbot virtual assistant based on a si
 
 ## Understanding the AI Instructions
 
-Clear and well-written instructions are essential for a delightful Generative AI experience by guiding the manual. In a specific scenario, we created a simple ['Answer' node]() to understand the conversation language, which can be incorporated into the system message prompt for the ['Generative AI' node]().
+Clear and well-written instructions are essential for a delightful Generative AI experience by guiding the manual. In a specific scenario, we created a simple ['Answer' node](../digital-agent/conversation-flow/nodes-explained/answer-node.md) to understand the conversation language, which can be incorporated into the system message prompt for the ['Generative AI' node](../digital-agent/conversation-flow/nodes-explained/ai-node.md).
 
 > **WARNING:** Ensure the {current_utterance} variable is in the user input type for each iteration. The assistant further explains past actions before the user inputs.
 
@@ -76,7 +76,7 @@ This input represents the user's side of the conversation. It includes the queri
 
 ## Knowledge base - functions
 
-Apart from generating customer responses, Generative AI can utilize a Function from our [Knowledge Base]() to learn information. More details about the Knowledge Base will be provided soon after reworking this feature.
+Apart from generating customer responses, Generative AI can utilize a Function from our [Knowledge Base](../digital-agent/advanced-functions/knowledge-base.md) to learn information. More details about the Knowledge Base will be provided soon after reworking this feature.
 
 This integration allows our internal knowledge base to complement the Neural Language Processor, delivering optimal answers, even from internal information.
 

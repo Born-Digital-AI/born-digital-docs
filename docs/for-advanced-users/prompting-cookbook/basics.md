@@ -12,7 +12,7 @@ Mastering the art of prompting is a game-changer, allowing developers to fine-tu
 
 A prompt can take various forms, ranging from a simple sentence to a detailed set of instructions. It is the user's means of conveying the desired task or information to the language model. A well-crafted prompt is crucial for achieving accurate and contextually relevant results.
 
-In the Flow Editor, you can leverage the [**AI Node**]() to harness the power of generative language models. Within the modal, you can customize the behaviour of the generative model by providing specific instructions or prompts. These custom instructions guide the model in generating content tailored to your requirements.
+In the Flow Editor, you can leverage the [**AI Node**](../digital-agent/conversation-flow/nodes-explained.md) to harness the power of generative language models. Within the modal, you can customize the behaviour of the generative model by providing specific instructions or prompts. These custom instructions guide the model in generating content tailored to your requirements.
 
 ![]()
 

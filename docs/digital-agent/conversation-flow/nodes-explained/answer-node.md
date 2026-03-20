@@ -2,7 +2,7 @@
 
 Use Answer node when you need a response from the customer and you need to understand the intent from the response and extract some name entities.
 
-The['Answer' node]()essentially waits for and processes customer response, subsequently guiding the Conversation Flow based on these inputs. Let's delve into the foundational logic of the ['Answer' node]()step-by-step.
+The['Answer' node](../digital-agent/conversation-flow/nodes-explained/answer-node.md)essentially waits for and processes customer response, subsequently guiding the Conversation Flow based on these inputs. Let's delve into the foundational logic of the ['Answer' node](../digital-agent/conversation-flow/nodes-explained/answer-node.md)step-by-step.
 
 ![]()
 
@@ -48,13 +48,13 @@ Intent is a meaning of what the customer said in his last utterance and thus int
 
 ****
 
-We can use every intent as separated chat button with some basic configuration. Feel free to learn more in chapter - [Creating Your First Virtual Assistant]()for more informations and basic use case.
+We can use every intent as separated chat button with some basic configuration. Feel free to learn more in chapter - [Creating Your First Virtual Assistant](../digital-agent/building-new-projects.md)for more informations and basic use case.
 
 > **WARNING:** Every intent has to have a target node, what I want to do with the intent of customer. 
 
 For example: Customer wants to know more about the product, intent is recognized, continue in flow to ask for specific product name.
 
-See the page - [STEP 4.]() and [STEP 5.]()in [Creating Your First Virtual Assitant]() to see the intents in action
+See the page - [STEP 4.](../digital-agent/building-new-projects/advanced-project/step-4.-managing-flow-scenarios.md) and [STEP 5.](../digital-agent/building-new-projects/advanced-project/step-5.-finalizing-the-project.md)in [Creating Your First Virtual Assitant](../digital-agent/building-new-projects.md) to see the intents in action
 
 ---
 
@@ -252,7 +252,7 @@ Discover advanced settings to customize the chat bubble output in the Answer Nod
 
 ### **Use as a Widget**
 
-Engage the Answer node as a [widget]() for specialized uses. This feature caters to advanced users seeking enhanced functionalities, offering additional customization options and integration capabilities. 
+Engage the Answer node as a [widget](../digital-agent/advanced-functions/widgets.md) for specialized uses. This feature caters to advanced users seeking enhanced functionalities, offering additional customization options and integration capabilities. 
 
 ![]()
 
@@ -305,7 +305,7 @@ These chat bubble output settings are specifically designed for chat channels, w
 - Enabling language detection affects speech-to-text processing because it occurs before transcription begins. This process may take longer to receive the transcription of the user's utterance. Consequently, there will be a delay between when the user stops speaking and when the bot starts responding. This delay is due to several processing steps taking place in between, each taking a few milliseconds to a second.
 - Enabling language detection merely stores the ISO language code in the background. If we intend to use language detection to control subsequent flow steps or transfer to another project based on language, we must manually configure this.
 
-- For instance, within an Answer Node, we can set up a condition like language_detection == "de", where the target node is set to [transfer]() to a German language-specific project (TRAN_DE). This manual configuration ensures that the conversation continues appropriately based on the detected language.
+- For instance, within an Answer Node, we can set up a condition like language_detection == "de", where the target node is set to [transfer](../digital-agent/conversation-flow/nodes-explained/transfer-node.md) to a German language-specific project (TRAN_DE). This manual configuration ensures that the conversation continues appropriately based on the detected language.
 
 ### **Reuse Utterance**
 

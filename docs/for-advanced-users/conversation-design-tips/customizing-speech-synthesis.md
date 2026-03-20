@@ -138,7 +138,7 @@ Copywriting for your digital assistant should be simple and straightforward to m
 
 ## **Keynotes:**
 
-| isCh78qj7ijj |
+|  |
 | --- |
 | In the case of voicebot, you do not have to stick to spelling and grammar as in other types of communication. Of course, spelling and grammar are still important and have a very strong influence on synthesis quality. |
 | However in some cases, grammatically, orthographically and typologically correct text can lead to a result that is not pleasant to listen to, negatively affecting intonation and spoiling the quality of the synthesis. |
@@ -691,7 +691,7 @@ Every number needs to be checked!
 
 > > **B.**
 
-| c47d73faeaa84704b14a292c5c517450 | 938838ac108346f1849c0d507ff1ce4e |
+|  |  |
 | --- | --- |
 | **NUMBER** | **OK/NOK** |
 | 1234 | OK |

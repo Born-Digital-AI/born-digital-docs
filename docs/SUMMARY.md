@@ -5,13 +5,6 @@
 * [Welcome to Digital Studio](welcome/welcome-to-digital-studio.md)
 ## Digital Agent
 
-* [Tips & Tricks](digital-agent/tips-and-tricks.md)
-  * [Flow Design](digital-agent/tips-and-tricks/flow-design.md)
-  * [AI Node & Prompting](digital-agent/tips-and-tricks/ai-node-prompting.md)
-  * [Training & Intents](digital-agent/tips-and-tricks/training-and-intents.md)
-  * [Variables & Data](digital-agent/tips-and-tricks/variables-and-data.md)
-  * [Testing & Debugging](digital-agent/tips-and-tricks/testing-and-debugging.md)
-  * [Integrations & Functions](digital-agent/tips-and-tricks/integrations-and-functions.md)
 * [Introduction](digital-agent/introduction.md)
 * [Workspace](digital-agent/workspace.md)
   * [List of Projects](digital-agent/workspace/list-of-projects.md)

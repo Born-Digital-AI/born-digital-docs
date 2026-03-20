@@ -34,7 +34,7 @@ Consistent creation of project versions helps in maintaining a clear track recor
 
 Training your project version is an essential step to thoroughly test the Conversation Flow before deployment, ensuring optimal utilization.
 
-Initially, we made a minor enhancement in the '[Answer' node](), particularly with the intents "Yes" and "No" by incorporating chat button options. Before initiating training, we added chat buttons specifically tailored for these intentions. Our goal was to emphasize the "Yes" option by highlighting it as our primary button choice.
+Initially, we made a minor enhancement in the '[Answer' node](../digital-agent/conversation-flow/nodes-explained/answer-node.md), particularly with the intents "Yes" and "No" by incorporating chat button options. Before initiating training, we added chat buttons specifically tailored for these intentions. Our goal was to emphasize the "Yes" option by highlighting it as our primary button choice.
 
 The training process is straightforward. After verifying the flow logic, simply click the "Train the button" option. Upon successful completion of training, a chatbot interaction bubble will appear in the bottom right panel. Feel free to engage in a conversation with your newly created chatbot.
 

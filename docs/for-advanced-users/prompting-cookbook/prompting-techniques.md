@@ -39,6 +39,6 @@ Chaining techniques involve breaking down the task into smaller sub-steps of tho
 
 ****
 
-> **INFO:** Designed with prompt chaining in mind, our [AI NODE]() modal allows you to effortlessly string together a system prompt and several user/assistant prompts. Start with a contextual system message, then seamlessly add prompts to create a fluid dialogue series, or step-by-step process. Dive in and elevate your chatbot conversations with simplicity and finesse! 🚀
+> **INFO:** Designed with prompt chaining in mind, our [AI NODE](../digital-agent/conversation-flow/nodes-explained/ai-node.md) modal allows you to effortlessly string together a system prompt and several user/assistant prompts. Start with a contextual system message, then seamlessly add prompts to create a fluid dialogue series, or step-by-step process. Dive in and elevate your chatbot conversations with simplicity and finesse! 🚀
 
-[Click here to learn all]() that is to know about Generative AI node!
+[Click here to learn all](../digital-agent/conversation-flow/nodes-explained/ai-node.md) that is to know about Generative AI node!

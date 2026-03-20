@@ -8,7 +8,7 @@ Before training the project, ensure you've activated the "Execute..." option in 
 
 We intentionally used a two-line user name as an example. We elucidated the usage of the "namex" function back in Step 2. Feel free to modify or delete these sentences based on your requirements.
 
-Wanna know more about project deployment? [Visit this page]()
+Wanna know more about project deployment? [Visit this page](../digital-agent/workspace/deploy-project.md)
 
 ****
 

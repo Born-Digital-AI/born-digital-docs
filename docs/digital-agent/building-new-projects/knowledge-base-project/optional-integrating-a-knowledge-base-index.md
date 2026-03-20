@@ -16,6 +16,6 @@ This section illustrates the straightforward process of building your index, spe
 
 ****
 
-> **INFO:** [Knowledge base]() indexes significantly augment the conversational AI's effectiveness, enabling the integration of specific, detailed company or organizational information directly into the dialogue flow.
+> **INFO:** [Knowledge base](../digital-agent/advanced-functions/knowledge-base.md) indexes significantly augment the conversational AI's effectiveness, enabling the integration of specific, detailed company or organizational information directly into the dialogue flow.
 
-> **DANGER:** While powerful, knowledge base indexes have [their limitations]() and may not suit every [information source](). For optimal results and current limitations, further reading is advised [here]().
+> **DANGER:** While powerful, knowledge base indexes have [their limitations]() and may not suit every [information source](). For optimal results and current limitations, further reading is advised [here](../digital-agent/advanced-functions/knowledge-base.md).

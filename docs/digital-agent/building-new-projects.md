@@ -4,10 +4,10 @@ Welcome aboard! This guide will walk you through the effortless steps to craft a
 
 Choose the project
 
-| uJLkqMorQnnw | toRfC2ixjg1j |
+|  |  |
 | --- | --- |
-| [link](DPfNe3cP2GLzhrwfsL0l) | Here you will learn how to build the basic Virtual assistant for answering your questions using the 3 main nodes in 3 easy steps. |
-| [link](c0XioQGDIxyAf9i9lGCB) | Here we will deep-dive to  more complex solution and showcase all nodes and explain the logic to more details |
+|  | Here you will learn how to build the basic Virtual assistant for answering your questions using the 3 main nodes in 3 easy steps. |
+|  | Here we will deep-dive to  more complex solution and showcase all nodes and explain the logic to more details |
 
 Advanded project
 

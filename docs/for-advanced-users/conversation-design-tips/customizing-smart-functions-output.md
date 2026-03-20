@@ -169,7 +169,7 @@ Next, we use the phone_to_read variable in message text to be displayed in chat 
 ![]()
 
 > **INFO:** Pro-tip! 
-When developing a voicebot, it's essential to utilize SSML ([Speech Synthesis Markup Language]()) tags to ensure accurate pronunciation and appropriate pacing. This is particularly crucial for reading out phone numbers, where each digit should be pronounced individually rather than as a single number (e.g., "one two three four five six seven eight nine").
+When developing a voicebot, it's essential to utilize SSML ([Speech Synthesis Markup Language](../for-advanced-users/conversation-design-tips/customizing-speech-synthesis.md)) tags to ensure accurate pronunciation and appropriate pacing. This is particularly crucial for reading out phone numbers, where each digit should be pronounced individually rather than as a single number (e.g., "one two three four five six seven eight nine").
 
 Additionally, incorporating SSML tags to slow down the speech rate can enhance clarity, especially for dictation purposes.
 

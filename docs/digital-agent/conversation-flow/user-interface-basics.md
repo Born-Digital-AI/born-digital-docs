@@ -4,7 +4,7 @@ Before starting work on any Conversation Flow, whether creating a new project or
 
 ## **Overview of the New Blank Project**
 
-To start from scratch, refer to the [Creating Project]() page for detailed instructions. 
+To start from scratch, refer to the [Creating Project](../digital-agent/workspace/list-of-projects.md) page for detailed instructions. 
 
 Remember, you can also import projects based on your templates into your workspace. 
 
@@ -51,7 +51,7 @@ These icons offer the ability to undo or redo previous actions, providing a safe
 
 The search panel provides a convenient way to search for nodes within your project by their names, allowing for quick navigation and location of specific elements.
 
-The left panel showcases Nodes and an interactive panel with various building blocks. For a deeper understanding, explore the [Nodes Explained chapter]().
+The left panel showcases Nodes and an interactive panel with various building blocks. For a deeper understanding, explore the [Nodes Explained chapter](../digital-agent/conversation-flow/nodes-explained.md).
 
 Use basic interaction options such as zoom-in, zoom-out, or fit to the project screen by clicking on the basic interaction menu.
 
@@ -102,7 +102,7 @@ SPend
 
 Here, you'll find the editor displaying an example project. We have a flow with connections and nodes as the primary building blocks shaping our conversational flow, featuring a starting node and an end node (phones). After training the version, we gain access to the chatbot widget, allowing us to toggle the left navigation bar and hide/show the node bar. 
 
-This straightforward project was built step-by-step (refer to the [Creating My First Virtual Assistant]() page), utilizing nodes as fundamental building blocks, elaborated further in the upcoming chapter - [Nodes Explained]().
+This straightforward project was built step-by-step (refer to the [Creating My First Virtual Assistant](../digital-agent/building-new-projects.md) page), utilizing nodes as fundamental building blocks, elaborated further in the upcoming chapter - [Nodes Explained](../digital-agent/conversation-flow/nodes-explained.md).
 
 ![]()
 

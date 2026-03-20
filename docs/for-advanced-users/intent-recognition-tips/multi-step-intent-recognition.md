@@ -2,7 +2,7 @@
 
 When dealing with open-ended questions that require categorization into numerous fine-grained intents, it is advisable to adopt a multi-step approach and prepare a recognition tree. 
 
-This method involves creating a tree structure consisting of [Answer nodes](), where utterances are processed and intents are recognized. Due to limitations in prompt space and the complexity of categorization, it is recommended to divide the process into multiple steps.
+This method involves creating a tree structure consisting of [Answer nodes](../digital-agent/conversation-flow/nodes-explained/answer-node.md), where utterances are processed and intents are recognized. Due to limitations in prompt space and the complexity of categorization, it is recommended to divide the process into multiple steps.
 
 ![]()
 

@@ -4,7 +4,7 @@ Learn how the Knowledge base empowers your digital agent by providing the necess
 
 # Creating a Knowledge base
 
-Knowledge base files typically contain internal information, customer queries (FAQ), and specific answers based on previous analysis. It can also contain internal documents like General Terms and Conditions, Privacy Policies, NDAs agreements, and more. The Knowledge base is a vital component of our ['AI' node](), allowing us to extract knowledge from it and use OpenAI's generative solutions to provide answers.
+Knowledge base files typically contain internal information, customer queries (FAQ), and specific answers based on previous analysis. It can also contain internal documents like General Terms and Conditions, Privacy Policies, NDAs agreements, and more. The Knowledge base is a vital component of our ['AI' node](../digital-agent/conversation-flow/nodes-explained/ai-node.md), allowing us to extract knowledge from it and use OpenAI's generative solutions to provide answers.
 
 In this chapter, we'll guide you through creating, managing, and utilizing Knowledge base index files.
 

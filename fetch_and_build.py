@@ -14,6 +14,7 @@ SPACE_ID = "6iQTvxgRZRwPS1NgIGEb"
 BASE_URL = "https://api.gitbook.com/v1"
 HEADERS = {"Authorization": f"Bearer {TOKEN}"}
 ASSETS_DIR = "docs/.gitbook/assets"
+page_id_map = {}  # pageId -> path (populated after structure fetch)
 
 def fetch(url):
     req = urllib.request.Request(url, headers=HEADERS)
@@ -132,13 +133,58 @@ def node_to_md(node, depth=0):
             src = node.get("data", {}).get("src", "")
         return f"![{alt}]({src})\n\n"
     if t == "link":
-        href = node.get("data", {}).get("href", "")
+        data = node.get("data", {})
+        href = data.get("href", "")
+        ref = data.get("ref", {})
+        if not href and ref.get("kind") == "page":
+            page_path = page_id_map.get(ref.get("page", ""), "")
+            href = f"../{page_path}.md" if page_path else ""
         text = children_text().strip()
-        return f"[{text}]({href})"
+        return f"[{text}]({href})" if text else ""
     if t == "divider":
         return "---\n\n"
     if t == "table":
-        return "_[Table content - see GitBook for full view]_\n\n"
+        data = node.get("data", {})
+        definition = data.get("definition", {})
+        records = data.get("records", {})
+        view = data.get("view", {})
+        columns = view.get("columns", list(definition.keys()))
+        fragments_list = node.get("fragments", [])
+
+        # build fragmentId -> nodes map (skip non-string fragment keys)
+        frag_map = {f["fragment"]: f["nodes"] for f in fragments_list if "fragment" in f and isinstance(f["fragment"], str)}
+
+        # sort records by orderIndex
+        sorted_records = sorted(records.items(), key=lambda x: x[1].get("orderIndex", ""))
+
+        if not sorted_records:
+            return ""
+
+        # build header row from column titles (empty string if no title)
+        headers = [definition.get(col, {}).get("title", "") or "" for col in columns]
+
+        # render each record
+        rows = []
+        for rec_id, rec in sorted_records:
+            cells = []
+            for col in columns:
+                frag_id = rec.get("values", {}).get(col, "")
+                if isinstance(frag_id, dict):
+                    # page/anchor reference — skip, cell content is in fragment nodes
+                    cell_md = ""
+                else:
+                    frag_nodes = frag_map.get(frag_id, [])
+                    cell_md = "".join(node_to_md(n, depth) for n in frag_nodes).strip().replace("\n", " ")
+                cells.append(cell_md)
+            rows.append(cells)
+
+        # assemble markdown table
+        lines = []
+        lines.append("| " + " | ".join(headers) + " |")
+        lines.append("| " + " | ".join(["---"] * len(headers)) + " |")
+        for row in rows:
+            lines.append("| " + " | ".join(row) + " |")
+        return "\n".join(lines) + "\n\n"
     if t in ("tabs", "tab"):
         return children_text()
     if t == "expandable":
@@ -183,6 +229,11 @@ def collect_pages(pages, result=None):
 all_pages = collect_pages(structure["pages"])
 sheets = [p for p in all_pages if p.get("kind") == "sheet" and p.get("path")]
 groups = [p for p in all_pages if p.get("kind") == "group"]
+
+# populate page_id_map for link resolution
+for p in all_pages:
+    if p.get("id") and p.get("path"):
+        page_id_map[p["id"]] = p["path"]
 
 print(f"Found {len(sheets)} pages, {len(groups)} groups")
 

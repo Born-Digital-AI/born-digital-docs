@@ -2,11 +2,11 @@
 
 This section will enable you to understand the basics of creating and managing your first insight project.
 
-## [Workspace]()
+## [Workspace](../insights/workspace.md)
 
 Learn more about individual elements of the Insights product UI. 
 
-## [Basic workflow]()
+## [Basic workflow](../insights/building-new-projects/analysis-project.md)
 
 Basic analysis of the data files:
 
@@ -16,7 +16,7 @@ Basic analysis of the data files:
 4. Upload content data or integrate a data source
 5. Create a dashboard to visualise and to be able to access the outputs of prompts
 
-## ⚙️ [Advanced workflow]()
+## ⚙️ [Advanced workflow](../insights/building-new-projects/advanced-analysis-project-using-flow.md)
 
 Analysis of the data files and passing data from Insight to the Digital Agent for further processing and back:
 
@@ -35,7 +35,7 @@ Icon ⚙️ indicates advanced features.
 
 ## Quick links for you
 
-| 21e7e5528cd64ba6899578c8f06e571a | e16968b6712940a3a064f9152f51e292 | e6b0e6026a98467381753486e873c151 |
+|  |  |  |
 | --- | --- | --- |
-| [link](peBnFFbI5xmBLyhA78JB) | Understand the Digital Studio Workspace to manage and oversee your  insight projects. |  |
-| [link](8xS3Frv2Vd53zb2XPYZi) | Learn how to create a new Insights project from scratch. |  |
+|  | Understand the Digital Studio Workspace to manage and oversee your  insight projects. |  |
+|  | Learn how to create a new Insights project from scratch. |  |

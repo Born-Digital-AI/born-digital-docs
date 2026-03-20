@@ -2,9 +2,9 @@
 
 The 'Transfer' node plays a pivotal role in complex and advanced projects, facilitating connections between different segments or projects within your Conversation Flow
 
-In a scenario, for instance, we're linking our current project, "My First Project," with a['Transfer' node]() to "My First Virtual Assistant." It's important to note that this example is purely illustrative and can be customized according to specific project requirements.
+In a scenario, for instance, we're linking our current project, "My First Project," with a['Transfer' node](../digital-agent/conversation-flow/nodes-explained/transfer-node.md) to "My First Virtual Assistant." It's important to note that this example is purely illustrative and can be customized according to specific project requirements.
 
-> **INFO:** When transferring a project, it always begins from the ['Starting' node](). Ensure that the logic behind the subsequent project is accurate, and the project possesses a stable, active version for seamless transitioning.
+> **INFO:** When transferring a project, it always begins from the ['Starting' node](../digital-agent/conversation-flow/nodes-explained/start-end-nodes.md). Ensure that the logic behind the subsequent project is accurate, and the project possesses a stable, active version for seamless transitioning.
 
 
 

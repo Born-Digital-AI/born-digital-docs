@@ -26,7 +26,7 @@ feature is suitable for uploading a smaller batch of recordings (ca up to 50), r
 - Upload: button for manual upload of data files for processing in formats .wav, .mp3, .ogg, .flac
 - Metadata: switch for displaying a JSON metadata editor underneath it. Once activated, the editor's value applies exclusively to a single audio file for upload.
 
-> **INFO:** Metadata accompanies uploaded audio files, resulting in improved visibility and extending filter options in dashboards; its data can also be utilized in [parameter conditions]() and [Digital Agent flows]().
+> **INFO:** Metadata accompanies uploaded audio files, resulting in improved visibility and extending filter options in dashboards; its data can also be utilized in [parameter conditions](../insights/workspace/design/parameters.md) and [Digital Agent flows](../digital-agent/conversation-flow.md).
 
 ---
 

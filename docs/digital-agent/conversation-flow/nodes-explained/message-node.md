@@ -2,13 +2,13 @@
 
 Use Message node when you want to tell something to the customer.
 
-This node is a basic element within the [Conversation Flow](), facilitating communication between your digital agent and the customer. It serves various purposes such as:
+This node is a basic element within the [Conversation Flow](../digital-agent/conversation-flow.md), facilitating communication between your digital agent and the customer. It serves various purposes such as:
 
 - posing questions
 - providing guidance
 - offering information
 
-Within ['Message' nodes](), you have the flexibility to add, delete, or edit multiple text or voice blocks. Each block is considered as one "chat bubble" in case of chat conversation.
+Within ['Message' nodes](../digital-agent/conversation-flow/nodes-explained/message-node.md), you have the flexibility to add, delete, or edit multiple text or voice blocks. Each block is considered as one "chat bubble" in case of chat conversation.
 
 Incorporate basic text or utilise variables, for dynamic content. Just start typing with curly brackets {} and variable names will be suggested to you. During the actual conversation, content of the variable is read to the customer.
 

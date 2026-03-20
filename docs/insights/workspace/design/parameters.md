@@ -46,7 +46,7 @@ This is relevant only for very long audio/text inputs (ie >1h recording).
 
 ### Flow connector
 
-These parameters are used for the connection with the [flows]() defined in the [Digital Agent]() project type. Once connected, you can pass insight data to flow for further processing and then retrieve it. 
+These parameters are used for the connection with the [flows](../digital-agent/conversation-flow.md) defined in the [Digital Agent](../digital-agent.md) project type. Once connected, you can pass insight data to flow for further processing and then retrieve it. 
 
 ![](.gitbook/assets/image_MR7l3E.png)
 
@@ -77,7 +77,7 @@ Send relevant data from Digital Agent back to Insights -> you can them use them 
 - Should process email attachments: switch to enable processing email attachments in the flow
 - Save: floating button for saving the settings to the parameter
 
-> **WARNING:** Consider creating and selecting a proxy project in the "Select project to connect" field, so you do not need to re-select the target flow project after each (re)training. Please see more [here]().
+> **WARNING:** Consider creating and selecting a proxy project in the "Select project to connect" field, so you do not need to re-select the target flow project after each (re)training. Please see more [here](../insights/building-new-projects/advanced-analysis-project-using-flow/1.-create-digital-agent-flow-projects.md).
 
 ## Management
 

@@ -1588,7 +1588,7 @@ We're committed to continuously improving our application to meet your needs and
 
 ## Digital Agent overview
 
-| fCJuJkrNqguD | 67hU8dH9qBW7 |
+|  |  |
 | --- | --- |
 | Application | Version |
 | Builder | v1.12.56 |
