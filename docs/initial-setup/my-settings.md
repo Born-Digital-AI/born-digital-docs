@@ -4,8 +4,8 @@ Welcome to the "My Settings" section! Here, we'll provide you with a concise ove
 
 |  |  |  |
 | --- | --- | --- |
-|  | Customize your experience, update your profile information, and set preferences that suit your needs. | - Profile Customization: Tailor your profile to reflect your identity and preferences within the app. - Personal Preferences: Adjust settings to match your workflow and optimize your user experience. - Account Information: Update and maintain your account details effortlessly. |
-|  | Explore the organizational settings that impact the broader framework within which you operate. | - Workspace Management: Configure and organize your workspace settings to enhance collaboration - Access Permissions: Administer access levels, roles, and permissions within your organization. - Team Collaboration: Facilitate seamless teamwork and communication among team members working on voicebot projects. |
+| [My settings](../initial-setup/my-settings.md) | Customize your experience, update your profile information, and set preferences that suit your needs. | - Profile Customization: Tailor your profile to reflect your identity and preferences within the app. - Personal Preferences: Adjust settings to match your workflow and optimize your user experience. - Account Information: Update and maintain your account details effortlessly. |
+| [My settings](../initial-setup/my-settings.md) | Explore the organizational settings that impact the broader framework within which you operate. | - Workspace Management: Configure and organize your workspace settings to enhance collaboration - Access Permissions: Administer access levels, roles, and permissions within your organization. - Team Collaboration: Facilitate seamless teamwork and communication among team members working on voicebot projects. |
 
 ---
 

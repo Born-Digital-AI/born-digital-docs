@@ -37,5 +37,5 @@ Icon ⚙️ indicates advanced features.
 
 |  |  |  |
 | --- | --- | --- |
-|  | Understand the Digital Studio Workspace to manage and oversee your  insight projects. |  |
-|  | Learn how to create a new Insights project from scratch. |  |
+| [Workspace](../digital-agent/workspace.md) | Understand the Digital Studio Workspace to manage and oversee your  insight projects. |  |
+| [Building new projects](../insights/building-new-projects.md) | Learn how to create a new Insights project from scratch. |  |

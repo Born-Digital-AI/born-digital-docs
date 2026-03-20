@@ -14,7 +14,8 @@ SPACE_ID = "6iQTvxgRZRwPS1NgIGEb"
 BASE_URL = "https://api.gitbook.com/v1"
 HEADERS = {"Authorization": f"Bearer {TOKEN}"}
 ASSETS_DIR = "docs/.gitbook/assets"
-page_id_map = {}  # pageId -> path (populated after structure fetch)
+page_id_map = {}   # pageId -> path
+page_title_map = {}  # pageId -> title
 
 def fetch(url):
     req = urllib.request.Request(url, headers=HEADERS)
@@ -140,6 +141,8 @@ def node_to_md(node, depth=0):
             page_path = page_id_map.get(ref.get("page", ""), "")
             href = f"../{page_path}.md" if page_path else ""
         text = children_text().strip()
+        if not text and ref.get("kind") == "page":
+            text = page_title_map.get(ref.get("page", ""), "")
         return f"[{text}]({href})" if text else ""
     if t == "divider":
         return "---\n\n"
@@ -170,8 +173,12 @@ def node_to_md(node, depth=0):
             for col in columns:
                 frag_id = rec.get("values", {}).get(col, "")
                 if isinstance(frag_id, dict):
-                    # page/anchor reference — skip, cell content is in fragment nodes
-                    cell_md = ""
+                    # direct page/anchor reference stored as dict
+                    pid = frag_id.get("page", "") or frag_id.get("anchor", "")
+                    ptitle = page_title_map.get(pid, "")
+                    ppath = page_id_map.get(pid, "")
+                    href = f"../{ppath}.md" if ppath else ""
+                    cell_md = f"[{ptitle}]({href})" if ptitle else ""
                 else:
                     frag_nodes = frag_map.get(frag_id, [])
                     cell_md = "".join(node_to_md(n, depth) for n in frag_nodes).strip().replace("\n", " ")
@@ -232,8 +239,10 @@ groups = [p for p in all_pages if p.get("kind") == "group"]
 
 # populate page_id_map for link resolution
 for p in all_pages:
-    if p.get("id") and p.get("path"):
-        page_id_map[p["id"]] = p["path"]
+    if p.get("id"):
+        if p.get("path"):
+            page_id_map[p["id"]] = p["path"]
+        page_title_map[p["id"]] = p.get("title", "")
 
 print(f"Found {len(sheets)} pages, {len(groups)} groups")
 

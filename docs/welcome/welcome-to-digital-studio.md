@@ -10,6 +10,6 @@ Embark on your journey with Digital Agents and Customer Insight Analytics! Disco
 
 |  |  |  |
 | --- | --- | --- |
-|  | Master the fundamental principles for crafting a digital agent + use case |  |
-|  | Get some tips from our conversation design experts. |  |
-|  | Master the fundamental principles for crafting a text or audio analysis + use case |  |
+| [Digital Agent](../digital-agent.md) | Master the fundamental principles for crafting a digital agent + use case |  |
+| [For advanced users](../for-advanced-users.md) | Get some tips from our conversation design experts. |  |
+| [Insights](../insights.md) | Master the fundamental principles for crafting a text or audio analysis + use case |  |

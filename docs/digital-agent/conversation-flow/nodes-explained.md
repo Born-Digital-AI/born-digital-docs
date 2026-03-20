@@ -10,14 +10,14 @@ We provide an in-depth understanding of each node at a configuration level along
 
 |  |  |
 | --- | --- |
-|  | Enables your chatbot or voicebot to engage with your customers directly. |
-|  | Serves as a pivotal point within the logic, allowing understanding of customer intents and name entities. |
-|  | Serves as a valuable feature to drive the flow of the conversation based on the defined conditions. |
-|  | Serves various purposes, allowing for the execution of multiple functions and interactions with backend systems. |
-|  | Utilize Large Language Models and theri generative features in you conversation. |
-|  | Plays a pivotal role in complex and advanced projects, facilitating moving the conversation between different projects in your workspace |
-|  | The 'Redirect' node plays a significant role in redirecting the conversation to human agent |
-|  | Defining the starting and ending points within is crucial for the successful implementation |
+| [MESSAGE node](../digital-agent/conversation-flow/nodes-explained/message-node.md) | Enables your chatbot or voicebot to engage with your customers directly. |
+| [ANSWER node](../digital-agent/conversation-flow/nodes-explained/answer-node.md) | Serves as a pivotal point within the logic, allowing understanding of customer intents and name entities. |
+| [DECISION node](../digital-agent/conversation-flow/nodes-explained/decision-node.md) | Serves as a valuable feature to drive the flow of the conversation based on the defined conditions. |
+| [FUNCTION node](../digital-agent/conversation-flow/nodes-explained/function-node.md) | Serves various purposes, allowing for the execution of multiple functions and interactions with backend systems. |
+| [AI node](../digital-agent/conversation-flow/nodes-explained/ai-node.md) | Utilize Large Language Models and theri generative features in you conversation. |
+| [TRANSFER node](../digital-agent/conversation-flow/nodes-explained/transfer-node.md) | Plays a pivotal role in complex and advanced projects, facilitating moving the conversation between different projects in your workspace |
+| [REDIRECT node](../digital-agent/conversation-flow/nodes-explained/redirect-node.md) | The 'Redirect' node plays a significant role in redirecting the conversation to human agent |
+| [START / END nodes](../digital-agent/conversation-flow/nodes-explained/start-end-nodes.md) | Defining the starting and ending points within is crucial for the successful implementation |
 
 
 

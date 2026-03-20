@@ -4,9 +4,9 @@ Discover essential steps from sign-up to profile customization and organization 
 
 |  |  |  |
 | --- | --- | --- |
-|  |  | Begin your journey by easily creating your account with our intuitive sign-up process |
-|  |  | Access your account securely and effortlessly by following simple login procedures |
-|  |  | Customize and personalize your experience with easy-to-access settings tailored to your preferences |
+| [Starting up](../initial-setup/starting-up.md) |  | Begin your journey by easily creating your account with our intuitive sign-up process |
+| [Starting up](../initial-setup/starting-up.md) |  | Access your account securely and effortlessly by following simple login procedures |
+| [My settings](../initial-setup/my-settings.md) |  | Customize and personalize your experience with easy-to-access settings tailored to your preferences |
 
 
 
